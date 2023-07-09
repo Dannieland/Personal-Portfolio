@@ -1,0 +1,60 @@
+/*
+index.css
+Danielle Taplin
+7/1/2023
+CSS document containing general site styling for my index page for my personal portfolio
+*/
+  .content {
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  h1, h2 {
+    margin-top: 400px;
+  }
+  
+  h1 {
+    font-size: 115px;
+    letter-spacing: .09em;
+  }
+
+  h2 {
+    font-size: 60px;
+    margin-top: 150px;
+  }
+
+  img {
+    padding-right: 60px;
+    object-position:center;
+    float: left;
+  }
+  .my-photo {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .topnav {
+    margin-top: 6.5em;
+  }
+
+  .main-content {
+    margin: auto 0;
+    height: 100px;
+    width: 500px;
+    float:left;
+    padding-bottom: 10em;
+    position:relative;
+  }
+
+  .fa-3x {
+    color: white;
+    text-align: center;
+    padding-top: 5em;
+  }
+
+  .bucket-list {
+    display: flex;
+    column-gap: 60px;
+  }
