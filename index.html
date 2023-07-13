@@ -12,8 +12,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--CSS sheet links, title, metadata, JavaScript, and Google Fonts links-->
-<link href="site.css" type="text/css"  rel="stylesheet">
-<link href="index.css" type="text/css"  rel="stylesheet">
+<link href="/styles/site.css" type="text/css"  rel="stylesheet">
+<link href="/styles/index.css" type="text/css"  rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
@@ -23,12 +23,12 @@
 <style>
 body, html {
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .bg {
   /* The image used */
-  background-image: url("/frameworks/potentialphoto.jpeg");
+  background-image: url("/images/potentialphoto.jpeg");
 
   /* Full height */
   height: 100%; 
@@ -50,7 +50,7 @@ body, html {
   <div class="content">
     <br>
     <h1>Hey, I'm Danielle</h1>
-      <br><br>
+ 
       <h3>Aspiring Web Developer</h3><br>
       <h3>Learning and growing every day</h3><br>
       <h3>Lover of new things</h3>
@@ -59,24 +59,27 @@ body, html {
     <!-- icon with onclick event that switches between dark and light mode -->
    
     <div class="fa-3x">
-      <i class="fa-solid fa-chevron-down fa-beat-fade" style="--fa-animation-duration: 1.5s;"></i>
+      <a href="#topnavi"><i class="fa-solid fa-chevron-down fa-beat-fade" style="--fa-animation-duration: 1.5s;"></i></a>
     </div>           
     
   </div>
 
   <div class="about-header">
+   <!--Nav links at top--> 
+   <div id="topnavi">
    <nav>
     <div class="topnav">
-      <img class="logo-image" src="frameworks/logo.png" alt="Danielle, Web Developer">
-      <a href="#news">Projects</a>
-      <a href="#contact">Resume</a>
-      <a class="active" href="#about">About</a>
+      <img class="logo-image" src="images/logo.png" alt="Danielle, Web Developer">
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a class="active" href="index.html">About</a>
     </div>
    </nav>
+  </div>
 
-    <h2>About Me</h2>
+   <div id="aboutme"><h2>About Me</h2></div>
     <div class="my-photo">
-    <img src="/frameworks/potentialphoto.jpeg" alt="About Me Photo" class="center" 
+    <img src="/images/potentialphoto.jpeg" alt="About Me Photo" class="center" 
         style="width:377.5px;height:463.7px;" float:left;>
       </div>
       </div>
@@ -152,18 +155,8 @@ body, html {
       </div>
     </div>
   </div>
-
+  <script src="script.js"></script>
 </body>
-<footer>
-  <div class="nav-footer">
-    <ul class="navfooter">
-      <li><a href="">Assignment 2.2</a></li>
-      <li><a href="">Assignment 3.2</a></li>
-      <li><a href="">Assignment 4.2</a></li>
-      <li><a href="">Assignment 5.2</a></li>
-     </ul>
-    </div>
-</footer>
 </html>
 
 
