@@ -37,22 +37,19 @@ CSS document containing general site styling for my index page for my personal p
   width: 50%;
   }
 
-  .topnav {
-    margin-top: 9.8em;
-  }
-
   .main-content {
     margin: auto 0;
     height: 100px;
     width: 500px;
     float:left;
     padding-bottom: 10em;
-    position:relative;
+    object-position: center;
   }
 
   .bucket-list {
     display: flex;
     column-gap: 60px;
+    font: bold;
   }
 
 
@@ -73,4 +70,12 @@ CSS document containing general site styling for my index page for my personal p
   /*footer styling*/
   footer {
   text-align: center;
+  }
+/*nav links*/
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
   }
